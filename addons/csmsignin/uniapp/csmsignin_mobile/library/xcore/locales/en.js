@@ -1,0 +1,73 @@
+export default {
+  "xc": {
+    "btn_submit": "Submit",
+    "btn_confirm": "Confirm",
+    "btn_cancel": "Cancel",
+    "btn_audit": "Audit",
+    "btn_save": "Save",
+    "btn_edit": "Edit",
+    "btn_delete": "Delete",
+    "btn_add": "Add",
+    "btn_search": "Search",
+    "btn_close": "Close",
+    "btn_back": "Back",
+    "btn_more": "More",
+    "rules_required_input": "Please fill in",
+    "rules_required_select": "Please select",
+    "msg_success_save": "Saved successfully",
+    "msg_success_operate": "Operation successful",
+    "msg_error_emptydata": "Data is empty, please contact the administrator!",
+    "msg_error_network": "Execution error, please retry!",
+	"msg_error_authorize": "Authorization Failed",
+    "msg_confirm_delete": "Are you sure to delete?",
+    "msg_loading": "Loading",
+    "msg_systemtips": "System Tips"
+  },
+  "xclogin": {
+    "_model_": {
+      "nickname": "Nickname",
+      "avatar": "Avatar",
+	  "mobile": 'Mobile',
+	  "captcha": 'Captcha',
+    },
+    "me": {
+      "title": "My Information",
+      "label_anony_nickname": "Anonymous User",
+      "label_profile_info": "Account Information",
+      "label_linkme": "Contact Us",
+      "label_servicepolicy": "Service Policy",
+      "label_privatepolicy": "Privacy Policy",
+      "btn_logout": "Log Out",
+      "btn_destoryaccount": "Cancel My Account"
+    },
+    "login": {
+      "title": "User Login",
+	  "btn_login": 'Login',
+      "msg_please_login": "Please log in",
+      "label_welcome_login": "Welcome to log in",
+      "msg_input_mobile": "Please enter your mobile number",
+      "msg_input_mobile_tips": "Unregistered mobile numbers will automatically create a account after verification",
+      "btn_get_ccode": "Get SMS Verification Code",
+      "msg_please_agree": "I agree",
+      "msg_please_read": "Please read",
+      "msg_mobile_required": "Mobile number cannot be empty!",
+      "msg_mobile_error_format": "Mobile number format is incorrect!",
+      "msg_input_ccode": "Please enter the verification code",
+      "msg_send_ccode": "The verification code has been sent to",
+      "msg_get_ccode": "Get Code",
+      "msg_reget_ccode": "Resend Verification Code",
+      "msg_getting_ccode": "Getting Verification Code",
+      "msg_already_send_ccode": "Verification code has been sent",
+      "msg_send_after_ccode": "Resend after the countdown",
+	  "msg_countdown_ccode": 'Re-get in X seconds',
+    },
+    "me_delete": {
+      "btn_delete": "Cancel Account",
+      "msg_delete_success": "Cancellation successful",
+      "msg_delete_risk_tips": "Cancelling the account carries the following risks",
+      "msg_delete_risk_1": "Cancelling the account carries the following risks",
+      "msg_delete_risk_2": "Once cancelled, your login account in this system will no longer be usable, and all task information under your account will be irrecoverable",
+      "msg_confirm_delete": "Are you sure to cancel the account?"
+    }
+  }
+}

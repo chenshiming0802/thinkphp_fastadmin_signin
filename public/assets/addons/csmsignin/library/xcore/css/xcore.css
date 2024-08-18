@@ -1,0 +1,41 @@
+.xc-detailpage-div .form-group{
+    padding-left: -40px !important;
+    margin-left: -40px !important;
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+}
+.xc-detailpage-div .xc-grouptitle{
+    clear: both;
+    width: 100%;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.xc-detailpage-div .xc-grouptitle:before {
+    content: ' ';
+    display: block;
+    width: 3px;
+    height: 25px;
+    background: #0a8cd2;
+    float: left;
+    margin-right: 10px;
+}
+.xc-block{
+    position: relative;
+    padding: 20px;
+}
+.xc-block .xc-title{
+    font-weight: bold;
+    padding: 10px 0px 0px 0px;
+}
+.xc-block .xc-content{
+    padding: 10px 0px 0px 0px;
+}
+.xc-pt{
+    padding-top:10px;
+}
+.red{
+    color:red;
+}

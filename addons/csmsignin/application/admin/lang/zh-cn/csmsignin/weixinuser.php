@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'Id'                => 'id',
+    'Wxappid'           => '微信appid',
+    'Currentsessionkey' => '当前微信sessionkey',
+    'Openid'            => 'Openid',
+    'Avatarurl'         => '头像',
+    'City'              => '城市',
+    'Country'           => '国家',
+    'Gender'            => '性别',
+    'Language'          => '语言',
+    'Nickname'          => '昵称',
+    'Province'          => '地区',
+    'Phonenumber'       => '用户绑定的手机号（国外手机号会有区号）',
+    'Purephonenumber'   => '没有区号的手机号',
+    'Countrycode'       => '区号',
+    'Status'            => '状态',
+    'Createtime'        => '创建时间',
+    'Updatetime'        => '更新时间',
+    'B1'                => '备用字段1',
+    'B2'                => '备用字段2',
+    'B3'                => '备用字段3',
+    'B4'                => '备用字段4',
+    'B5'                => '备用字段5',
+    'B6'                => '备用字段6',
+    'B7'                => '备用字段7',
+    'B8'                => '备用字段8',
+    'B9'                => '备用字段9'
+];

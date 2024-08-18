@@ -1,0 +1,113 @@
+// https://uniapp.dcloud.net.cn/collocation/pages.html
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uv-(.*)": "@climblee/uv-ui/components/uv-$1/uv-$1.vue",
+			"^xc-(.*)": "@/library/xcore/component/xc-$1.vue",
+			"^xa-(.*)": "@/library/xapp/component/xa-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/csmsignin/conf",
+			"style": {
+				"navigationBarTitleText": "活动签到"
+			},
+			"needLogin": false
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			},
+			"needLogin": false
+		},
+		{
+			"path": "pages/xcdemo/index",
+			"style": {
+				"navigationBarTitleText": "uni-appXcDemo"
+			},
+			"needLogin": false
+		},
+		{
+			"path": "pages/xcdemo/dmo/list_tabs",
+			"style": {
+				"navigationBarTitleText": "DMO List",
+				"enablePullDownRefresh": true
+			},
+			"needLogin": true
+		},
+		{
+			"path": "pages/xcdemo/dmo/list_vtabs",
+			"style": {
+				"navigationBarTitleText": "DMO List",
+				"enablePullDownRefresh": true
+			},
+			"needLogin": true
+		},
+		{
+			"path": "pages/xcdemo/dmo/item",
+			"style": {
+				"navigationBarTitleText": "DMO Item",
+				"enablePullDownRefresh": true
+			},
+			"needLogin": true
+		},
+		{
+			"path": "pages/xcdemo/dmoapply/form",
+			"style": {
+				"navigationBarTitleText": ""
+			},
+			"needLogin": true
+		},
+		{
+			"path": "pages/xcdemo/dmoapply/list",
+			"style": {
+				"navigationBarTitleText": "DMO APPLY"
+			},
+			"needLogin": true
+		},
+		{
+			"path": "pages/xclogin/login",
+			"style": {
+				"navigationBarTitleText": "用户登录"
+			},
+			"needLogin": false
+		},
+		{
+			"path": "pages/xclogin/me",
+			"style": {
+				"navigationBarTitleText": ""
+			},
+			"needLogin": true
+		},
+		{
+			"path": "pages/xclogin/policy",
+			"style": {
+				"navigationBarTitleText": ""
+			},
+			"needLogin": false
+		},
+		{
+			"path": "pages/xclogin/me_profile",
+			"style": {
+				"navigationBarTitleText": "我的信息"
+			},
+			"needLogin": true
+		},
+		{
+			"path": "pages/xclogin/me_delete",
+			"style": {
+				"navigationBarTitleText": ""
+			},
+			"needLogin": true
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

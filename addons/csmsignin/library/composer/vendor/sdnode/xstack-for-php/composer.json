@@ -1,0 +1,15 @@
+{
+    "name": "sdnode/xstack-for-php",
+    "description": "full stack development framework in php",
+    "type": "library",
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "cn\\sdnode\\xstack\\": "src/cn/sdnode/xstack"
+        },
+        "files": []
+    }
+}
