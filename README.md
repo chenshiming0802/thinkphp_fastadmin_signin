@@ -1,13 +1,13 @@
-<b>知识产权管理系统（开源版）</b><BR>
-赋能企业对企业的商标、专利和著作权的沉淀和管理，替代传统Excel方式。
+<b>会议/活动签到系统（开源版）</b><BR>
+会议/活动签到系统（开源版）是由PHP、Uniapp（vue3）开发，支持H5、微信公众号和小程序，MIT协议。Activity Check-in System is developed with PHP and Uniapp (Vue 3), supporting H5, WeChat Mini Programs, under the MIT license.
 
 ## 在线演示
 
-https://ipr.163fan.com
+https://csmsignin.163fan.com/abc.php
 
-用户名：ipr
+用户名：csmsignin
 
-密　码：123456
+密　码：csmsignincsmsignin
 
 提　示：演示站数据无法进行修改 ，请下载源码安装体验全部功能
 
@@ -17,33 +17,16 @@ https://ipr.163fan.com
 
 
 ## 功能清单
-* 商标管理
-    * 商标库管理（已完成）
-    * 外网数据自动同步（排期中）
-    * 许可管理（排期中）
-    * 流程管理（排期中）
-    * 续费预警（排期中）
-* 专利管理
-    * 专利管理（开发中）
-    * 外网数据自动同步（排期中）
-    * 许可管理（排期中）
-    * 流程管理（排期中）
-    * 续费预警（排期中）
-* 著作权管理
-    * 商标库管理（排期中）
-    * 外网数据自动同步（排期中）
-    * 许可管理（排期中）
-    * 流程管理（排期中）
-    * 续费预警（排期中）
-* 系统管理
-    * 账号管理（已完成）
-    * 个人信息管理（已完成）
-    * 部门管理（排期中）
-    * 子公司管理（排期中）
-* 其他
-    * 移动端支持（排期中）
-    * 报表支持（排期中）
-    * 预警管理（排期中）
+* 系统访问端口
+    * 微信小程序
+    * 微信公众号
+    * 手机浏览器扫码访问
+    * 电脑端浏览器访问
+* 会议活动设置
+    * 是否需要签到查看会议/活动信息
+    * 是否限定会议参会人
+    * 会议/活动签到时间范围设定
+    * 会议/活动栏目信息设置
 
 ## 安装使用
 
@@ -69,6 +52,7 @@ php xp_product_console_revertinstall.php
 * PHP 7.x , Mysql 5.x 和 Nginx/Apache ，可以用宝塔、LAMP和WAMP等集成环境部署
 * Thinkphp 5.x，Fastadmin 1.x
 * Bootstrap 3.x , JQuery 2.1.x
+* Uniapp，Vue3，UvUI
 
 
 ## 问题反馈 & 新需求新想法
@@ -77,9 +61,9 @@ php xp_product_console_revertinstall.php
 
 联系方式: chenshiming0802@163.com
 
-Github: https://github.com/chenshiming0802/thinkphp_fastadmin_ipr
+Github: https://github.com/chenshiming0802/thinkphp_fastadmin_signin
 
-Gitee: https://gitee.com/chenshiming0802/thinkphp_fastadmin_ipr
+Gitee: https://gitee.com/chenshiming0802/thinkphp_fastadmin_signin
 
 ## 特别鸣谢
 
@@ -110,10 +94,10 @@ SDNode: https://gitee.com/sdnode/xstack
 
 ## 版权信息
 
-本遵循AGPL-3.0开源协议发布。
+本遵循MIT开源协议发布。
 
 本项目包含的第三方源码和二进制文件之版权信息另行标注。
 
-版权所有Copyright © 2017-2024 by chenshiming0802 (https://ipr.163fan.com)
+版权所有Copyright © 2017-2024 by chenshiming0802 (https://csmsignin.163fan.com)
 
 All rights reserved。
