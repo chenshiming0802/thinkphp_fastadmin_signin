@@ -13,7 +13,7 @@ https://csmsignin.163fan.com/abc.php
 
 ## 界面截图
 ![页面一](docs/images/software/pc_index_home.png)
-![页面二](docs/images/software/pc_cosole_home.jpg)
+![页面二](docs/images/software/pc_cosole_home.png)
 
 
 ## 功能清单
